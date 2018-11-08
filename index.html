@@ -13,56 +13,6 @@
     <p id="win count"></p>
     <p id="word"></p>
 
-    <script>
-        // the variables 
-        // ============================================================================================
-        // words for the game
-
-        var word = [
-            { w: "_ _ _ _ _ _ _", a: "chicago" },
-            { w: "_ _ _  _ _ _ _ _ _ _ _ _ _ ", a: "les Miserables" },
-            { w: "_ _ _ _ _ _", a: "grease" },
-            { w: "_ _ _ _ _ _ _  _ _ _ _", a: "sweeney todd" },
-            { w: "_ _ _ _ _ _  _ _ _ _ _", a: "moulin rouge" },
-        ]
-
-        // win count
-        var score = 0;
-
-        // holds the word
-        var wordIndex = 0;
-
-        // how many quesses the player has left
-        var guessIndex = 0;
-
-        // what letters have been chosen already
-        var lettersChosen
-
-        // the functions 
-        // ============================================================================================
-
-        // function to render question
-        function renderQuestion() {
-            if (wordIndex <= (word.length - 1)) {
-                document.querySelector("#word").innerHTML = word[wordIndex].w;
-            }
-
-            else {
-                document.querySelector("#word").innerHTML = "End of Show!";
-                document.querySelector("#win count").innerHTML = "Final Score: " + score + " out of " + word.length;
-            }
-        }
-
-
-
-
-
-
-
-    </script>
-
-
-
 
 </body>
 
