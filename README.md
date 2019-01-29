@@ -1,7 +1,6 @@
 # Word-Guess-Game
-.This is not working game
 
-How it works (it does not)
+Using html, css and javascript
 
 How it was suppose to work.
 1. A player would press any button to start the game.
@@ -19,7 +18,4 @@ How it was suppose to work.
  12. If the player lost the game there would of been the sound of an audience booing.
  13. If the player won there would of been the sound of thunderous applause.
  
- Thanks
- . Even though the game did not work I want to thank all my classmates especially Jackson and Isabella who took time from working on their own assignments to give me pointers and help me talk though what my plan was. 
  
-
